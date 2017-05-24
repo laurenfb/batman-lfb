@@ -1,0 +1,103 @@
+{
+    .batman-alert
+    {
+        color: color(red);
+    }
+
+    .batman-indent
+    {
+        margin: 0 0 0 10px;
+    }
+
+    .batman-info
+    {
+        padding: 0 10px;
+        text-align: left;
+    }
+
+    .batman-table
+    {
+
+        border-collapse: collapse;
+        border: 1px solid black;
+        margin: 0 10px 5px 10px;
+
+        td
+        {
+            border: 1px solid black;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+            font-weight: normal;
+        }
+
+        tr:nth-child(2n)
+        {
+            background: grayscale(9);
+        }
+
+        tr:hover
+        {
+            background: color(blue, light);
+        }
+
+        .subhead
+        {
+            background-color: grayscale(7);
+            color: grayscale(10);
+        }
+    }
+
+    .batman-subtable
+    {
+
+        border-collapse: collapse;
+        width: 100%;
+
+        th
+        {
+            border: 1px solid grey;
+            background-color: grey;
+        }
+    }
+
+    .batman-debug
+    {
+        background: grayscale(7);
+        color: grayscale(9);
+    }
+
+    .batman-error
+    {
+        background: color(red);
+        color: grayscale(9);
+    }
+
+    .batman-fatal
+    {
+        background: color(red, x-dark);
+        color: grayscale(9);
+    }
+
+    .batman-informational
+    {
+        background: color(blue);
+        color: grayscale(9);
+    }
+
+    .batman-success
+    {
+        background: color(green);
+        color: grayscale(9);
+    }
+
+    .batman-warning
+    {
+        background: color(yellow, dark);
+        color: grayscale(9);
+    }
+}
